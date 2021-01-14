@@ -1,4 +1,5 @@
 #declare {
+<<<<<<< HEAD
   background-color: red;
   border-color: black;
   border-width: 5px;
@@ -86,3 +87,92 @@
     font-family: monospace;
     font-size: 15px;
   }
+=======
+background-color: red;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+padding: 20px;
+margin: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.red-box {
+background-color: red;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+padding: 20px;
+margin: 20px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.red-text {
+  color: red;
+}
+
+.main-image {
+    width: 500px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.thin-red-border {
+border-color: red;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+}
+
+.silver-background {
+background-color: silver;
+text-align: center;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+p {
+  font-size: 16px;
+  font-family: monospace;
+  text-align: center;
+}
+
+h2 {
+font-family: Lobster;
+padding: 5px;
+margin: 5px;
+color: red;
+background-color: black;
+border-width: 3px;
+border-color: red;
+border-style: solid;
+border-radius: 5px;
+box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+h2:hover {
+  transform: scale(1.1)
+}
+
+body {    
+background: url(https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png);
+}
+
+#navbar {
+  width: 90%;
+  background-color: #ff0000;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+nav ul {
+  margin: 0px;
+  padding: 5px 0px 5px 30px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+  font-family: monospace;
+  font-size: 15px;
+}
+>>>>>>> 702eeed30e39031b1e687d43a8f26506bf7d39a8
