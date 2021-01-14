@@ -1,10 +1,19 @@
 #declare {
-    background-color: red;
+background-color: red;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
+padding: 20px;
+margin: 20px;
 }
 
 .red-box {
-background-color: crimson;
-color: rgb(0, 0, 0);
+background-color: red;
+border-color: black;
+border-width: 5px;
+border-style: solid;
+border-radius: 5px;
 padding: 20px;
 margin: 20px;
 }
@@ -29,14 +38,6 @@ background-color: silver;
 text-align: center;
 }
 
-.black-bg {
-  background-color: black;
-  border-width: 3px;
-  border-color: red;
-  border-style: solid;
-  border-radius: 5px;
-}
-
 p {
   font-size: 16px;
   font-family: monospace;
@@ -45,6 +46,12 @@ p {
 
 h2 {
 font-family: Lobster;
-padding: 20px;
-margin: 20px;
+padding: 5px;
+margin: 5px;
+color: red;
+background-color: black;
+border-width: 3px;
+border-color: red;
+border-style: solid;
+border-radius: 5px;
 }
