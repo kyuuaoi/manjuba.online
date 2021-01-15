@@ -15,7 +15,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
   <nav class="navbar navbar-default navbar-fixed-top role=" navigation">
     <div class="container-fluid">
@@ -27,14 +27,14 @@
           <span class="icon-bar"></span>
         </button>
 
-        <a class="navbar-brand" href="#" id="texto-logo">📸 AMR</a>
+        <a class="navbar-brand" href="#">📸 AMR</a>
       </div>
       <div class="collapse navbar-collapse" id="navbar-collapse-main">
         <ul class="nav navbar-nav navbar-right">
-          <li><a class="active" href="#">Home</a></li>
-          <li><a class="#">Sobre</a></li>
-          <li><a class="#">Portfolio</a></li>
-          <li><a class="#">Contato</a></li>
+          <li><a class="nav-link" href="#">Home</a></li>
+          <li><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li><a class="#" href="#portfolio">Portfolio</a></li>
+          <li><a class="active" href="#footerdiv">Contato</a></li>
         </ul>
 
 
@@ -48,10 +48,11 @@
     <div class="landing-text">
       <h1>AMAURI R. RODRIGUES</h1>
       <h3>FOTOGRAFIA</h3>
-      <a href="#" class="btn btn-default btn-lg">Conheça mais</a>
+      <a href="#sobre" class="btn btn-default btn-lg">Conheça mais</a>
     </div>
   </div>
 
+<div id="sobre">
   <div class="padding">
     <div class="container">
       <div class="row">
@@ -70,7 +71,38 @@
       </div>
     </div>
   </div>
+</div>
 
+<div id="portfolio">
+  <div class="padding">
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <img src="img/1.jpg" class="resize-portfolio">
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Texto Exemplo</h4>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid dignissimos, sit assumenda debitis
+            obcaecati pariatur explicabo placeat, cumque non iure, nobis iusto amet exercitationem magnam odio inventore
+            excepturi? Obcaecati, delectus!</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Upado no GitHub</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, quidem beatae! Saepe dicta eligendi rerum
+            ipsa, quidem nihil amet reiciendis mollitia, explicabo facilis laboriosam possimus voluptas? Laborum nihil
+            voluptatibus impedit.</p>
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+          <h4>Portfolio</h4>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum beatae cupiditate doloremque numquam,
+            facere nesciunt repellat et minus iste nobis quod. Soluta vitae omnis ipsam. Dolores at numquam sit optio?
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </div>
   <div class="padding">
     <div class="container">
       <div class="row">
@@ -103,6 +135,7 @@
       </div>
     </div>
   </div>
+</div>
 
 <div id="fixed">
 </div>
@@ -112,8 +145,7 @@
 
 
 
-
-
+<div id="footerdiv">
 <footer class="container-fluid text-center">
   <div class="row">
     <div class="col-sm-4">
@@ -123,15 +155,16 @@
     </div>
     <div class="col-sm-4">
       <h3>Social</h3>
-      <a href="#" class="fa fa-facebook"></a>
-      <a href="#" class="fa fa-instagram"></a>
-      <a href="#" class="fa fa-whatsapp"></a>
+      <a href="https://www.facebook.com/amauri.rocharodrigues" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/amauri.rocharodrigues/" class="fa fa-instagram"></a>
+      <a href="https://wa.me/5511987283676" class="fa fa-whatsapp"></a>
     </div>
     <div class="col-sm-4">
       <img src="img/b.png" class="icon">
     </div>
   </div>
 </footer>
+</div>
 </body>
 
 </html>
