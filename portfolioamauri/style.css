@@ -11,9 +11,11 @@
 }
 
 .navbar-brand {
-
+	text-decoration-color: white;
+	color: white;
 	font-size: 2em;
-	font-family: 'Lobster' cursive;
+	font-style: lobster;
+	font-family: Lobster;
 
 }
 
