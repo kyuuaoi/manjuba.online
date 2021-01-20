@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&family=Fjalla+One&display=swap"
+        rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="greensquare">
+            <h1 id="title">Mostre o quanto você ama as manjubas,</h1>
+            <p id="description">preenchendo este magnífico formulário:</p>
+        </div>
+    </header>
+
+    <br>
+
+    <div class="greensquare">
+        <form id="survey-form">
+            <label for="name" id="name-label"><b>Nome</b></label>
+            <input id="name" type="text" name="name" placeholder="seu nome" class="form-input" required></input>
+            <br> <br>
+            <label for="email" id="email-label"><b>E-mail</b></label>
+            <input id="email" type="email" name="email" placeholder="exemplo: manjuba@manjuba.online" class="form-input"
+                required></input>
+            <br> <br>
+            <label for="number" id="number-label"><b>Idade</b></label>
+            <input id="number" type="number" name="number" placeholder="sua idade" min="8" max="120" class="form-input"
+                required></input>
+            <br><br>
+            <label for="dropdown" id="modo"><b>Você prefere as manjubas</b></label>
+            <select id="dropdown" class="form-input">
+                <option value="Vivas">Vivas</option>
+                <option value="Assadas">Assadas</option>
+                <option value="Empanadas">Empanadas e fritas</option>
+                <option value="Online">Online</option>
+            </select>
+            <br>
+            <br>
+            <label for="eu_vou" id="eu_vou"><b>Eu sempre irei:</b></label>
+            <br>
+
+            <input id="eu_vou" type="radio" id="Amar" name="eu_vou" value="Amar">
+            <label for="eu_vou">Amar</label>
+            <br>
+
+            <input id="eu_vou" type="radio" id="Cuidar" name="eu_vou" value="Cuidar">
+            <label for="eu_vou">Cuidar</label>
+            <br>
+
+            <input id="eu_vou" type="radio" id="Proteger" name="eu_vou" value="Proteger">
+            <label for="eu_vou">Proteger</label>
+            <br>
+            <br>
+
+            <label for="features"><b>Eu também amo:</b></label>
+            <br>
+
+            <input id="checkbox" type="checkbox" name="features" value="Sardinhas">
+            <label for="checkbox">Sardinhas</label>
+            <br>
+
+            <input id="checkbox" type="checkbox" name="features" value="Salmões">
+            <label for="checkbox">Salmões</label>
+            <br>
+
+            <input id="checkbox" type="checkbox" name="features" value="Piranhas">
+            <label for="checkbox">Piranhas</label>
+            <br>
+
+            <input id="checkbox" type="checkbox" name="features" value="Lambaris">
+            <label for="checkbox">Lambarís</label>
+            <br>
+            <br>
+
+            <label id="textarea"><b>Declare aqui seu amor pelas manjubas:</b></label>
+            <br>
+            <textarea id="textarea" name="instructions"></textarea>
+            <br><br>
+
+            <input id="submit" type="submit" value="Enviar" class="submit_btn">
+
+        </form>
+    </div>
+    <br>
+    <footer class="greensquare">
+        Que o Deus Manjuba sempre te ilumine || @KyuuAoi 2021
+    </footer>
+
+
+</body>
+
+</html>

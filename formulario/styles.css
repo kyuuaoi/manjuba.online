@@ -1,0 +1,65 @@
+html {
+    background: url(img/bg.jpg) no-repeat center center fixed;
+    background-color: rgb(165, 252, 165);
+    background-blend-mode: hard-light;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+#description {
+    font-size: 20px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+form {
+    margin: auto;
+    width: 50%;
+    font-family: 'Fjalla One', sans-serif;
+
+}
+
+.greensquare {
+    margin: auto;
+    width: 50%;
+    background-color: rgba(36, 155, 50, 0.9);
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.submit_btn {
+    width: 100%;
+    background: rgb(247, 35, 35);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-input {
+    display: block;
+    width: 100%;
+    height: 2rem;
+    border-radius: 5px;
+    background: rgb(210, 252, 209);
+}
+
+textarea {
+    width: 100%;
+    border-radius: 5px;
+    background: rgb(210, 252, 209);
+}
+
+footer {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    font-family: 'Fjalla One', sans-serif;
+}
