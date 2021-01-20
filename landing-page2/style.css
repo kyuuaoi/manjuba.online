@@ -11,6 +11,7 @@
     padding-top: 40px;
     background-image: url(back2.jpg);
     background-size: 100%;
+    background-attachment: fixed;
     size: cover;
     font-family: 'Bebas Neue', cursive;
     font-size: 40px;
