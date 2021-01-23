@@ -1,0 +1,112 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+/* BODY */
+
+header {
+    height: 100vh;
+    background-image: url(img/hbg.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#headertxt {
+    font-size: 25px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    text-shadow: 0 0 10px #000;
+    /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+}
+
+
+body {
+    background-color: #396674;
+}
+
+nav {
+    background-color: #2589BD;
+    font-family: 'Rubik', sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+nav a {
+    color: white;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+
+#about {
+    background-color: #187795;
+}
+
+#projects {
+    background-color: #38686A;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* SOCIAL MEDIA */
+
+#social {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    background-color: #A3B4A2;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#social-btn {
+    font-size: 60px;
+}
+
+#face {
+    color: rgb(0, 89, 255);
+}
+
+#linkedin {
+    color: rgb(12, 12, 241);
+}
+
+#insta {
+    color: rgb(224, 69, 58)
+}
+
+#git {
+    color: rgb(0, 0, 0);
+}
+
+#whats {
+    color: rgb(0, 46, 0);
+}
+
+/* FOOTER */
+
+#footer {
+    height: 10vh;
+    font-size: 15px;
+    text-align: center;
+    background-color: #CDC6AE;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
