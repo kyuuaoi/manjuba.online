@@ -12,51 +12,69 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Roboto:wght@700&family=Rubik:wght@600&display=swap"
         rel="stylesheet">
+    <link href="css/hover-min.css" rel="stylesheet">
     <title>Gabriel Luizon's Portfolio</title>
 </head>
 
-<nav id="navbar">
-    <a href="#about">About</a>
-    <a href="#projects">Projects</a>
-    <a href="#social">Social Media</a>
-</nav>
+<style>
 
-<header id="about">
+@media (max-width: 15px) {
+    .on-the-fly-behavior {
+        background-image: url('particular_ad_small.png');
+    }
+}
+</style>
 
-
-    <div id="headertxt">
-        <h1 id="headerh1">Hi there! ✌🏼</h1>
-        <br>
-        <p>My name is Gabriel Luizon,</p>
-        <p>and now I am a Web Developer. 👍🏼</p>
-    </div>
-</header>
 
 
 <body>
 
+    <nav id="navbar">
+        <a href="#" class="button hvr-grow-rotate" id="logo">#GL</a>
+        <a href="#about" class="button hvr-buzz-out">About</a>
+        <a href="#projects" class="button hvr-buzz-out">Projects</a>
+        <a href="#social" class="button hvr-buzz-out">Social Media</a>
+    </nav>
+    
+    <section id="welcome-section">
+    
+    <header id="about">
+    
+        <div id="headertxt">
+            <h1 id="headerh1">Hi there! ✌🏼</h1>
+            <br>
+            <p>My name is Gabriel Luizon,</p>
+            <p>and now I am a Web Developer. 👍🏼</p>
+        </div>
+    </header>
+    
+    </section>
+
     <section id="projects">
-        <h1>Projects</h1>
-        <ul>
-            <li><a href="#">1</a></li>
-            <li><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-            <li><a href="#">4</a></li>
-            <li><a href="#">5</a></li>
+        <h1>Some of my projects:</h1>
+        <ul class="project-tile">
+            <li><a href="https://manjuba.online/formulario/" target="_blank">Formulário simples</a></li>
+            <li><a href="#">Exemplo 2</a></li>
+            <li><a href="#">Exemplo 3</a></li>
+            <li><a href="#">Exemplo 4</a></li>
+            <li><a href="#">Exemplo 5</a></li>
         </ul>
     </section>
 
     <section id="social">
-        <h1>You can find me on</h1>
+        <h1>Let's work togheter!</h1>
+        <br>
+        <br>
+        <p>You can find me on</p>
         <container id="social-btn">
-            <a href="https://www.instagram.com/gabrielluizon/" target="_blank"><i class="fab fa-instagram"
+            <a href="https://www.instagram.com/gabrielluizon/" target="_blank" class="hvr-skew-forward"><i class="fab fa-instagram"
                     id="insta"></i></a>
-            <a href="https://www.facebook.com/gabrielluizon/" target="_blank"><i class="fab fa-facebook"
+            <a href="https://www.facebook.com/gabrielluizon/" target="_blank" class="hvr-skew-forward"><i class="fab fa-facebook"
                     id="face"></i></a>
-            <a href="https://www.linkedin.com/in/gabriel-luizon-188950b6/" target="_blank"><i class="fab fa-linkedin"
+            <a href="https://www.linkedin.com/in/gabriel-luizon-188950b6/" target="_blank" class="hvr-skew-forward"><i class="fab fa-linkedin"
                     id="linkedin"></i></a>
-            <a href="https://github.com/kyuuaoi" target="_blank"><i class="fab fa-github" id="git"></i></a>
-            <a href="https://api.whatsapp.com/send?phone=5511982139584" target="_blank"><i class="fab fa-whatsapp" id="whats"
+            <a href="https://github.com/kyuuaoi" target="_blank" id="profile-link" class="hvr-skew-forward"><i class="fab fa-github" id="git"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=5511982139584" target="_blank" class="hvr-skew-forward"><i class="fab fa-whatsapp" id="whats"
                     href="https://www.instagram.com/gabrielluizon/"></i></a>
         </container>
 

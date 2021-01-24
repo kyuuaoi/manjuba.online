@@ -27,15 +27,23 @@ header {
     -webkit-text-shadow: 0 0 2px #000;
 }
 
+#logo {
+    color: rgb(0, 0, 0);
+}
+
 
 body {
     background-color: #396674;
 }
 
 nav {
+    position: fixed;
+    /*width: 95.85%;*/
+    margin: auto;
     background-color: #2589BD;
     font-family: 'Rubik', sans-serif;
     display: flex;
+    align-items: flex-end;
     justify-content: flex-end;
     padding: 20px;
 }
