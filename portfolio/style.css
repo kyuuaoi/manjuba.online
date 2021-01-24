@@ -60,7 +60,8 @@ nav a {
 }
 
 #projects {
-    background-color: #38686A;
+    color: white;
+    background-color: #244c4d;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
     display: flex;
